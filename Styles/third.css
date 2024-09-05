@@ -1,3 +1,59 @@
 body {
   background-color: yellow;
 }
+
+body {
+  font-family: sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.joinToday {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px;
+
+  margin: auto;
+}
+
+.form {
+  background: white;
+  border-radius: 8px;
+  padding: 20px;
+  width: 45%;
+  box-sizing: border-box;
+}
+
+.form label {
+  display: block;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+
+.form input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ddd;
+  margin-bottom: 16px;
+  box-sizing: border-box;
+}
+
+.form input::placeholder {
+  color: #aaa;
+}
+
+.form button {
+  padding: 12px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+.form button:hover {
+  background-color: #0056b3;
+}
