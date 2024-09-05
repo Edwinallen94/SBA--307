@@ -1,7 +1,5 @@
 # SBA--307
 
-# Project Title
-
 SBA--307 "INFORMATION WEBSITE"
 
 This project is a multi-page website built using **HTML**, **CSS**, and **Bootstrap**. It demonstrates the use of various web development features while maintaining a clean and responsive design.
